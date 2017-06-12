@@ -263,6 +263,10 @@ paket-files/
 # FAKE - F# Make
 .fake/
 
+.exe
+*.cache
+.pdb
+
 # JetBrains Rider
 .idea/
 *.sln.iml
