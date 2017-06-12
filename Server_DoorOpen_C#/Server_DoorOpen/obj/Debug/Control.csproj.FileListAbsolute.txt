@@ -1,0 +1,17 @@
+C:\Users\usuario\Documents\SharpDevelop Projects\Control\Control\bin\Debug\Control.exe.config
+C:\Users\usuario\Documents\SharpDevelop Projects\Control\Control\bin\Debug\Control.exe
+C:\Users\usuario\Documents\SharpDevelop Projects\Control\Control\bin\Debug\Control.pdb
+C:\Users\usuario\Documents\SharpDevelop Projects\Control\Control\obj\Debug\Control.csprojResolveAssemblyReference.cache
+C:\Users\usuario\Documents\SharpDevelop Projects\Control\Control\obj\Debug\Control.NotificationIcon.resources
+C:\Users\usuario\Documents\SharpDevelop Projects\Control\Control\obj\Debug\Control.csproj.GenerateResource.Cache
+C:\Users\usuario\Documents\SharpDevelop Projects\Control\Control\obj\Debug\Control.exe
+C:\Users\usuario\Documents\SharpDevelop Projects\Control\Control\obj\Debug\Control.pdb
+C:\Users\SoporteSEM\Desktop\Soft Control\Control\Control\bin\Debug\Control.exe.config
+C:\Users\SoporteSEM\Desktop\Soft Control\Control\Control\bin\Debug\Control.exe
+C:\Users\SoporteSEM\Desktop\Soft Control\Control\Control\bin\Debug\Control.pdb
+C:\Users\SoporteSEM\Desktop\Soft Control\Control\Control\obj\Debug\Control.csprojResolveAssemblyReference.cache
+C:\Users\SoporteSEM\Desktop\Soft Control\Control\Control\obj\Debug\Control.NotificationIcon.resources
+C:\Users\SoporteSEM\Desktop\Soft Control\Control\Control\obj\Debug\Control.Resource1.resources
+C:\Users\SoporteSEM\Desktop\Soft Control\Control\Control\obj\Debug\Control.csproj.GenerateResource.Cache
+C:\Users\SoporteSEM\Desktop\Soft Control\Control\Control\obj\Debug\Control.exe
+C:\Users\SoporteSEM\Desktop\Soft Control\Control\Control\obj\Debug\Control.pdb

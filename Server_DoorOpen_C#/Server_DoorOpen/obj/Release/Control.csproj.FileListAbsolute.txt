@@ -1,0 +1,7 @@
+C:\Users\SoporteSEM\Desktop\Soft Control\Control\Control\bin\Release\Control.exe.config
+C:\Users\SoporteSEM\Desktop\Soft Control\Control\Control\bin\Release\Control.exe
+C:\Users\SoporteSEM\Desktop\Soft Control\Control\Control\obj\Release\Control.csprojResolveAssemblyReference.cache
+C:\Users\SoporteSEM\Desktop\Soft Control\Control\Control\obj\Release\Control.NotificationIcon.resources
+C:\Users\SoporteSEM\Desktop\Soft Control\Control\Control\obj\Release\Control.Resource1.resources
+C:\Users\SoporteSEM\Desktop\Soft Control\Control\Control\obj\Release\Control.csproj.GenerateResource.Cache
+C:\Users\SoporteSEM\Desktop\Soft Control\Control\Control\obj\Release\Control.exe
