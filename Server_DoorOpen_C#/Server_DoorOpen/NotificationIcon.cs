@@ -31,6 +31,9 @@ namespace Server_DoorOpen
 			notifyIcon.Icon = (Icon)resources.GetObject("$this.Icon");
 			notifyIcon.ContextMenu = notificationMenu;
 			notifyIcon.Icon = SystemIcons.Exclamation;
+			
+			Bitmap bitmap = new Bitmap("icon.ico");
+			notifyIcon.Icon=Icon.FromHandle(bitmap.GetHicon());
 			notifyIcon.Visible = true;
 
 			iniciarConexion("COM4");
@@ -76,7 +79,7 @@ namespace Server_DoorOpen
 		#region Event Handlers
 		private void menuReconnectClick(object sender, EventArgs e)
 		{
-			iniciarConexion("COM4");	
+			iniciarConexion("COM4");
 		}
 		
 		private void menuExitClick(object sender, EventArgs e)
@@ -89,10 +92,10 @@ namespace Server_DoorOpen
 			if(TCPServer.serialPort.IsOpen)
 			{
 				TCPServer.abrirPuerta();
-					notifyIcon.BalloonTipIcon=ToolTipIcon.Info;
-					notifyIcon.BalloonTipText="Abriendo";
-					notifyIcon.BalloonTipTitle="Ok";
-					notifyIcon.ShowBalloonTip(1000);
+				notifyIcon.BalloonTipIcon=ToolTipIcon.Info;
+				notifyIcon.BalloonTipText="Abriendo";
+				notifyIcon.BalloonTipTitle="Ok";
+				notifyIcon.ShowBalloonTip(1000);
 			}
 			else
 			{
@@ -109,8 +112,7 @@ namespace Server_DoorOpen
 		
 		private void iniciarConexion(string puertoCOM)
 		{
-								server = new TCPServer();
-					server.StartServer();
+			
 			try {
 				TCPServer.serialPort.PortName=puertoCOM;
 				TCPServer.serialPort.BaudRate=9600;
@@ -125,8 +127,10 @@ namespace Server_DoorOpen
 					notifyIcon.BalloonTipTitle="Ok";
 					notifyIcon.ShowBalloonTip(3000);
 					
-					server = new TCPServer();
-					server.StartServer();
+					if(!server.isServerRunning()){
+						server = new TCPServer();
+						server.StartServer();
+					}
 					
 				}
 				

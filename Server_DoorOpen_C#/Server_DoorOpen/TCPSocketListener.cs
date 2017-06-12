@@ -99,11 +99,11 @@ namespace Server_DoorOpen
 					
 					/*Convierto el paquete recibido a un objeto mensaje*/
 					string aux = System.Text.Encoding.UTF8.GetString(byteBuffer);
-					
+					MessageBox.Show(aux);
 					if (aux.IndexOf("Enviar") != -1)
 					{
 						TCPServer.queue.Enqueue("Enviar");
-						MessageBox.Show(aux);
+						
 					}
 					
 					/*Envio HTTP OK*/

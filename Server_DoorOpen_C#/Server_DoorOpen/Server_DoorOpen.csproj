@@ -62,7 +62,6 @@
     <EmbeddedResource Include="NotificationIcon.resx">
       <DependentUpon>NotificationIcon.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resource1.resx" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />

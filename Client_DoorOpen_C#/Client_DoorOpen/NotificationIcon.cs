@@ -33,7 +33,11 @@ namespace Client_DoorOpen
 			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(NotificationIcon));
 			notifyIcon.Icon = (Icon)resources.GetObject("$this.Icon");
 			notifyIcon.ContextMenu = notificationMenu;
-			notifyIcon.Icon = SystemIcons.Exclamation;
+			
+			
+			Bitmap bitmap = new Bitmap("icon.ico");
+			notifyIcon.Icon=Icon.FromHandle(bitmap.GetHicon());
+
 			notifyIcon.Visible = true;
 
 
@@ -87,6 +91,7 @@ namespace Client_DoorOpen
 			notifyIcon.BalloonTipTitle="Puerta";
 			notifyIcon.BalloonTipText="Abriendo...";
 			notifyIcon.ShowBalloonTip(3000);
+			
 			sendHTTP();
 
 			
@@ -97,29 +102,41 @@ namespace Client_DoorOpen
 		
 		#endregion
 		void sendHTTP(){
-			string url = "192.168.1.1:31001";
 			
-			request = WebRequest.Create(url);
-			request.Method="POST";
-			// Create POST data and convert it to a byte array.
-			string postData = "Enviar";
+			try {
+				Uri myUri = new Uri("http://192.168.4.18:31001");
+				
+				request = WebRequest.Create(myUri);
+				request.Method="POST";
+				// Create POST data and convert it to a byte array.
+				string postData = "Enviar";
+				
+				byte[] byteArray = System.Text.Encoding.UTF8.GetBytes(postData);
+
+				// Set the ContentType property of the WebRequest.
+				request.ContentType = "application/x-www-form-urlencoded";
+
+				// Set the ContentLength property of the WebRequest.
+				request.ContentLength = byteArray.Length;
+
+				// Get the request stream.
+				dataStream = request.GetRequestStream();
+
+				// Write the data to the request stream.
+				dataStream.Write(byteArray, 0, byteArray.Length);
+
+				// Close the Stream object.
+				dataStream.Close();
+			}
+			catch (Exception)
+			{
+				notifyIcon.BalloonTipIcon=ToolTipIcon.Error;
+				notifyIcon.BalloonTipTitle="Error";
+				notifyIcon.BalloonTipText="Error al abrir";
+				notifyIcon.ShowBalloonTip(1000);
+
+			}
 			
-			byte[] byteArray = System.Text.Encoding.UTF8.GetBytes(postData);
-
-			// Set the ContentType property of the WebRequest.
-			request.ContentType = "application/x-www-form-urlencoded";
-
-			// Set the ContentLength property of the WebRequest.
-			request.ContentLength = byteArray.Length;
-
-			// Get the request stream.
-			dataStream = request.GetRequestStream();
-
-			// Write the data to the request stream.
-			dataStream.Write(byteArray, 0, byteArray.Length);
-
-			// Close the Stream object.
-			dataStream.Close();
 		}
 
 	}

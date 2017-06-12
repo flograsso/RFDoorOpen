@@ -6,3 +6,11 @@ C:\Users\SoporteSEM\Documents\SharpDevelop Projects\Client_DoorOpen\Client_DoorO
 C:\Users\SoporteSEM\Documents\SharpDevelop Projects\Client_DoorOpen\Client_DoorOpen\bin\Debug\Client_DoorOpen.pdb
 C:\Users\SoporteSEM\Documents\SharpDevelop Projects\Client_DoorOpen\Client_DoorOpen\obj\Debug\Client_DoorOpen.exe
 C:\Users\SoporteSEM\Documents\SharpDevelop Projects\Client_DoorOpen\Client_DoorOpen\obj\Debug\Client_DoorOpen.pdb
+C:\Users\SoporteSEM\Desktop\Soft Control\Client_DoorOpen_C#\Client_DoorOpen\bin\Debug\Client_DoorOpen.exe.config
+C:\Users\SoporteSEM\Desktop\Soft Control\Client_DoorOpen_C#\Client_DoorOpen\bin\Debug\Client_DoorOpen.exe
+C:\Users\SoporteSEM\Desktop\Soft Control\Client_DoorOpen_C#\Client_DoorOpen\bin\Debug\Client_DoorOpen.pdb
+C:\Users\SoporteSEM\Desktop\Soft Control\Client_DoorOpen_C#\Client_DoorOpen\obj\Debug\Client_DoorOpen.csprojResolveAssemblyReference.cache
+C:\Users\SoporteSEM\Desktop\Soft Control\Client_DoorOpen_C#\Client_DoorOpen\obj\Debug\Client_DoorOpen.NotificationIcon.resources
+C:\Users\SoporteSEM\Desktop\Soft Control\Client_DoorOpen_C#\Client_DoorOpen\obj\Debug\Client_DoorOpen.csproj.GenerateResource.Cache
+C:\Users\SoporteSEM\Desktop\Soft Control\Client_DoorOpen_C#\Client_DoorOpen\obj\Debug\Client_DoorOpen.exe
+C:\Users\SoporteSEM\Desktop\Soft Control\Client_DoorOpen_C#\Client_DoorOpen\obj\Debug\Client_DoorOpen.pdb
