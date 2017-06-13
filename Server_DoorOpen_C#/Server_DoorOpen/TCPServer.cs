@@ -122,7 +122,7 @@ namespace Server_DoorOpen
 			}
 		}
 		public bool isServerRunning(){
-			return !m_stopServer;
+			return m_stopServer;
 		}
 		/// <summary>
 		/// Method that starts TCP/IP Server.
