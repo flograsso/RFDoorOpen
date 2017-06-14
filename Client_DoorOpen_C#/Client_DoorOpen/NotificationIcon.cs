@@ -7,12 +7,15 @@
  * To change this template use Tools | Options | Coding | Edit Standard Headers.
  */
 using System;
+using System.Collections.Specialized;
 using System.Diagnostics;
 using System.Drawing;
 using System.IO;
 using System.Net;
 using System.Threading;
 using System.Windows.Forms;
+using System.Collections.Generic;
+using System.Net;
 
 namespace Client_DoorOpen
 {
@@ -102,7 +105,25 @@ namespace Client_DoorOpen
 		
 		#endregion
 		void sendHTTP(){
+			try
+			{
+				var post = new NameValueCollection();
+				post.Add("Enviar", "Enviar");
+
+				using (var wc = new WebClient())
+				{
+					wc.UploadValues("http://192.168.4.18:31001", post);
+				}
+				
+				post = null;
+			}
+			catch (Exception)
+			{
+
+
+			}
 			
+			/*
 			try {
 				Uri myUri = new Uri("http://192.168.4.18:31001");
 				
@@ -136,6 +157,7 @@ namespace Client_DoorOpen
 				notifyIcon.ShowBalloonTip(1000);
 
 			}
+			 */
 			
 		}
 

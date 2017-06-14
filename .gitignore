@@ -23,6 +23,8 @@ bld/
 [Bb]in/
 [Oo]bj/
 [Ll]og/
+.exe
+.cache
 
 # Visual Studio 2015 cache/options directory
 .vs/
@@ -220,6 +222,8 @@ UpgradeLog*.htm
 *.mdf
 *.ldf
 *.ndf
+/obj
+/bin
 
 # Business Intelligence projects
 *.rdl.data
@@ -263,9 +267,9 @@ paket-files/
 # FAKE - F# Make
 .fake/
 
-.exe
+*.exe
 *.cache
-.pdb
+*.pdb
 
 # JetBrains Rider
 .idea/
