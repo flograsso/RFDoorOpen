@@ -84,6 +84,7 @@ namespace Server_DoorOpen
 		
 		private void menuExitClick(object sender, EventArgs e)
 		{
+			server.StopServer();
 			Application.Exit();
 		}
 		
@@ -127,7 +128,7 @@ namespace Server_DoorOpen
 					notifyIcon.BalloonTipTitle="Ok";
 					notifyIcon.ShowBalloonTip(3000);
 					
-					if(!server.isServerRunning()){
+					if(!TCPServer.isServerRunning()){
 						server = new TCPServer();
 						server.StartServer();
 					}

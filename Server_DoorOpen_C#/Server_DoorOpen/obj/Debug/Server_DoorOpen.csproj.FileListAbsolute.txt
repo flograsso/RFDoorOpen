@@ -25,3 +25,19 @@ C:\Users\SoporteSEM\Desktop\Soft Control\Server_DoorOpen_C#\Server_DoorOpen\obj\
 C:\Users\SoporteSEM\Desktop\Soft Control\Server_DoorOpen_C#\Server_DoorOpen\obj\Debug\Server_DoorOpen.csproj.GenerateResource.Cache
 C:\Users\SoporteSEM\Desktop\Soft Control\Server_DoorOpen_C#\Server_DoorOpen\obj\Debug\Server_DoorOpen.exe
 C:\Users\SoporteSEM\Desktop\Soft Control\Server_DoorOpen_C#\Server_DoorOpen\obj\Debug\Server_DoorOpen.pdb
+C:\Users\usuario\Desktop\RFDoorOpen-master\RFDoorOpen-master\Server_DoorOpen_C#\Server_DoorOpen\bin\Debug\Server_DoorOpen.exe.config
+C:\Users\usuario\Desktop\RFDoorOpen-master\RFDoorOpen-master\Server_DoorOpen_C#\Server_DoorOpen\bin\Debug\Server_DoorOpen.exe
+C:\Users\usuario\Desktop\RFDoorOpen-master\RFDoorOpen-master\Server_DoorOpen_C#\Server_DoorOpen\bin\Debug\Server_DoorOpen.pdb
+C:\Users\usuario\Desktop\RFDoorOpen-master\RFDoorOpen-master\Server_DoorOpen_C#\Server_DoorOpen\obj\Debug\Server_DoorOpen.csprojResolveAssemblyReference.cache
+C:\Users\usuario\Desktop\RFDoorOpen-master\RFDoorOpen-master\Server_DoorOpen_C#\Server_DoorOpen\obj\Debug\Server_DoorOpen.NotificationIcon.resources
+C:\Users\usuario\Desktop\RFDoorOpen-master\RFDoorOpen-master\Server_DoorOpen_C#\Server_DoorOpen\obj\Debug\Server_DoorOpen.csproj.GenerateResource.Cache
+C:\Users\usuario\Desktop\RFDoorOpen-master\RFDoorOpen-master\Server_DoorOpen_C#\Server_DoorOpen\obj\Debug\Server_DoorOpen.exe
+C:\Users\usuario\Desktop\RFDoorOpen-master\RFDoorOpen-master\Server_DoorOpen_C#\Server_DoorOpen\obj\Debug\Server_DoorOpen.pdb
+C:\Users\usuario\Documents\SharpDevelop Projects\Server_DoorOpen_C#\Server_DoorOpen\bin\Debug\Server_DoorOpen.exe.config
+C:\Users\usuario\Documents\SharpDevelop Projects\Server_DoorOpen_C#\Server_DoorOpen\bin\Debug\Server_DoorOpen.exe
+C:\Users\usuario\Documents\SharpDevelop Projects\Server_DoorOpen_C#\Server_DoorOpen\bin\Debug\Server_DoorOpen.pdb
+C:\Users\usuario\Documents\SharpDevelop Projects\Server_DoorOpen_C#\Server_DoorOpen\obj\Debug\Server_DoorOpen.csprojResolveAssemblyReference.cache
+C:\Users\usuario\Documents\SharpDevelop Projects\Server_DoorOpen_C#\Server_DoorOpen\obj\Debug\Server_DoorOpen.NotificationIcon.resources
+C:\Users\usuario\Documents\SharpDevelop Projects\Server_DoorOpen_C#\Server_DoorOpen\obj\Debug\Server_DoorOpen.csproj.GenerateResource.Cache
+C:\Users\usuario\Documents\SharpDevelop Projects\Server_DoorOpen_C#\Server_DoorOpen\obj\Debug\Server_DoorOpen.exe
+C:\Users\usuario\Documents\SharpDevelop Projects\Server_DoorOpen_C#\Server_DoorOpen\obj\Debug\Server_DoorOpen.pdb

@@ -99,12 +99,12 @@ namespace Server_DoorOpen
 					
 					/*Convierto el paquete recibido a un objeto mensaje*/
 					string aux = System.Text.Encoding.UTF8.GetString(byteBuffer);
-					//MessageBox.Show(aux);
-					if (aux.IndexOf("Enviar") != -1)
-					{
+					
+					//if (aux.IndexOf("http://192.168.4.18:31001") != -1)
+					//{
 						TCPServer.queue.Enqueue("Enviar");
 						
-					}
+					//}
 					
 					/*Envio HTTP OK*/
 					m_clientSocket.Send(TCPServer.HTTPresponse,TCPServer.HTTPresponse.Length,SocketFlags.None);

@@ -48,7 +48,7 @@ namespace Server_DoorOpen
 		/// Local Variables Declaration.
 		/// </summary>
 		private TcpListener m_server = null;
-		private bool m_stopServer=false;
+		private static bool m_stopServer=false;
 		private bool m_stopPurging=false;
 		private bool m_stopProccesing = false;
 		private Thread m_serverThread = null;
@@ -121,7 +121,7 @@ namespace Server_DoorOpen
 
 			}
 		}
-		public bool isServerRunning(){
+		public static bool isServerRunning(){
 			return m_stopServer;
 		}
 		/// <summary>
